@@ -11,23 +11,58 @@
 body 
 {
 	margin: 0;
-	padding:0;
+	padding: 0;
 
 	color:#333333;
 	font-size: 16px;
 	font-family: serif;
 }
 
+
+ul
+{
+	display: flex;
+  	justify-content: center;
+}
+
+li
+{
+	list-style: none;
+}
+
 h1 
 {
-	width: 200px;
-	margin: 100px auto;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 h2
 {
 	text-align: center;
-	margin-bottom: 3em;
+	font-size: 200%;
+}
+
+h3
+{
+	margin: 10px auto;
+}
+
+.subtitle
+{
+	font-size: 200%;
+	margin-left: 10px;
+}
+
+.assist
+{
+	text-align: center;
+	margin: 10px auto;
+}
+
+.rubi
+{
+	text-align: center;
+	margin-top: -30px;
 }
 
 .main-image img 
@@ -48,7 +83,7 @@ h2
 
 .global-navi li
 {
-	width: 25%;
+	width: 33.35%;
 }
 
 .global-navi a 
@@ -60,13 +95,18 @@ h2
 	text-align: center;
 	border: 1px solid #fff;
 	color: #fff;
-	background: #a37f61;
+	background: #808080;
+}
+
+.hidariyose
+{
+	text-align: center;
 }
 
 .global-navi a:hover
 {
 	background: #fff;
-	color: #a37f61;
+	color: #808080;
 }
 
 .list-item
@@ -108,4 +148,15 @@ h2
 #contact span
 {
 	font-size: 10px;
+}
+
+.biggy
+{
+	font-size: 70px;
+}
+
+.link
+{
+	text-align: center;
+	font-size: 15px;
 }
