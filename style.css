@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+/*共通設定*/
+
+*
+{
+	box-sizing: border-box;
+}
+
+body 
+{
+	margin: 0;
+	padding:0;
+
+	color:#333333;
+	font-size: 16px;
+	font-family: serif;
+}
+
+h1 
+{
+	width: 200px;
+	margin: 100px auto;
+}
+
+h2
+{
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.main-image img 
+{
+	width: 100%;
+	vertical-align: top;
+}
+
+/* .groval-naviの設定*/
+.global-navi ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+}
+
+.global-navi li
+{
+	width: 25%;
+}
+
+.global-navi a 
+{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	background: #a37f61;
+}
+
+.global-navi a:hover
+{
+	background: #fff;
+	color: #a37f61;
+}
+
+.list-item
+{
+	border:2px dotted #f99;
+}
+
+#li01
+{
+	border:2px solid #99f;
+}
+
+/*コンテンツごとの設定*/
+/*メッセージ*/
+
+#message 
+{
+	padding: 100px 0;
+	text-align:  center;
+}
+
+/*営業時間*/
+
+#contact
+{
+	padding: 100px 0;
+	text-align:  center;
+	background: #f0f0f0;
+	border-bottom: 1px solid
+	#cccccc;
+}
+
+#contact p
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#contact span
+{
+	font-size: 10px;
+}
